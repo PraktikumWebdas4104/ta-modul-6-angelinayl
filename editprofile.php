@@ -93,7 +93,7 @@ if (isset($_SESSEION["NIM"]) && isset($_SESSEION["Password"])) {
 			$Nama    		= $_POST['Nama'];
 			$NIM     		= $_POST['NIM'];
 			$Kelas   		= $_POST['Kelas'];
-			$JenisKelamin	= $_POST['JenisKelamin'];
+			$JenisKelamin		= $_POST['JenisKelamin'];
 			$Hobi   		= $_POST['Hobi'];
 			$Fakultas 		= $_POST['Fakultas'];
 			$Alamat 		= $_POST['Alamat'];
