@@ -32,12 +32,13 @@ include 'koneksi.php';
 		
 			echo "<table>
 					<tr>
-						<td><a herf='editprofil.php'>Edit</a></td>
+						<td><a herf='editprofile.php'>Edit</a></td>
 						<td><a href='posting.php'>Posting</a></td>
 						<td><a href='logout.php'>Logout</a></td>
 					</tr>
 				</table>";
-	}else{
+	}else
+	{
 		echo "Login tidak berhasil,klik <a href='login.php'>Login</a> kembali";
 	}
 
