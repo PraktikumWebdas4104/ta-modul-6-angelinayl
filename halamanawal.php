@@ -37,8 +37,8 @@ include 'koneksi.php';
 						<td><a href='logout.php'>Logout</a></td>
 					</tr>
 				</table>";
-	}else
-	{
+	}
+	else{
 		echo "Login tidak berhasil,klik <a href='login.php'>Login</a> kembali";
 	}
 
